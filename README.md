@@ -13,4 +13,4 @@
 **Github Actions**
 
 - 브랜치에 PR 시 캐싱을 적용한 빌드 테스트 실행
-- 태그를 `push` 하면 Container Registry(Docker Hub)로 Docker 이미지 build 후 push
+- main에 release가 `merge` 되면 Container Registry(Docker Hub)로 Docker 이미지 build 후 push
